@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="124dp"
+    android:background="@drawable/bg_camera_album_dialog"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_select_album"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/select_album"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:background="@drawable/bg_custom_system_dialog_top_selector"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d5d5d5"/>
+
+    <TextView
+        android:id="@+id/tv_select_camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/select_camera"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:background="@drawable/bg_custom_system_dialog_middle_selector"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d5d5d5"/>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_custom_system_dialog_foot_selector"
+        android:text="@string/cancel"
+        android:textSize="14sp"
+        android:textColor="#FFb600"/>
+</LinearLayout>
